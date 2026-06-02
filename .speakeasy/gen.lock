@@ -9,8 +9,8 @@ management:
   configChecksum: ac620390028e8fe79cc2bec9d157543c
   published: true
 persistentEdits:
-  generation_id: 01fe8ea0-696a-4ad7-9432-f6ed8477fd70
-  pristine_commit_hash: e464a9c3469de36a731d0e0dd1d62eb539ab6eb8
+  generation_id: 660e3e72-67aa-4a44-9d09-fe784eea01cb
+  pristine_commit_hash: 89304a882e6e9ede2e62dee5fcdd04339c1705ae
   pristine_tree_hash: e83ccac61e67f32b2ab81f45f5fbb30a278deeb1
 features:
   mcp-typescript:
