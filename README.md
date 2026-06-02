@@ -1,11 +1,11 @@
-# flexprice MCP Server
+# tirdad MCP Server
 
-A Model Context Protocol (MCP) server that exposes the flexprice API as tools for AI assistants (e.g. Claude, Cursor, VS Code, Windsurf). Use it to manage customers, plans, prices, subscriptions, invoices, payments, events, and more from your IDE or CLI.
+A Model Context Protocol (MCP) server that exposes the tirdad API as tools for AI assistants (e.g. Claude, Cursor, VS Code, Windsurf). Use it to manage customers, plans, prices, subscriptions, invoices, payments, events, and more from your IDE or CLI.
 
 ## Table of contents
 
 - [Prerequisites](#prerequisites)
-- [How to use the flexprice MCP server](#how-to-use-the-flexprice-mcp-server)
+- [How to use the tirdad MCP server](#how-to-use-the-tirdad-mcp-server)
 - [Add to your MCP client](#add-to-your-mcp-client)
 - [Tools](#tools)
 - [Progressive discovery (dynamic mode)](#progressive-discovery-dynamic-mode)
@@ -17,9 +17,9 @@ A Model Context Protocol (MCP) server that exposes the flexprice API as tools fo
 
 - **Node.js** v20 or higher
 - **npm** or **yarn**
-- **flexprice API key** from your [flexprice account](https://app.flexprice.io)
+- **tirdad API key** from your [tirdad account](https://app.tirdad.io)
 
-## How to use the flexprice MCP server
+## How to use the tirdad MCP server
 
 You can run the server in two ways: **npm package** (one command) or **local repo** (clone and run). Pick one, then [add it to your MCP client](#add-to-your-mcp-client).
 
@@ -33,7 +33,7 @@ Install: `npm i @tirdad-ai/mcp-server`. Or run with one command (no clone or bui
 npx @tirdad-ai/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
 ```
 
-Replace `YOUR_API_KEY` with your flexprice API key. Next: [Add to your MCP client](#add-to-your-mcp-client).
+Replace `YOUR_API_KEY` with your tirdad API key. Next: [Add to your MCP client](#add-to-your-mcp-client).
 
 ---
 
@@ -52,15 +52,15 @@ Use this if you want to change code or run without npm:
 **Docker (stdio):** You can also build and run with stdio:
 
 ```bash
-docker build -t flexprice-mcp .
-docker run -i -e API_KEY_APIKEYAUTH=your_api_key_here -e BASE_URL=https://api.tirdad.ai/v1 flexprice-mcp node bin/mcp-server.js start
+docker build -t tirdad-mcp .
+docker run -i -e API_KEY_APIKEYAUTH=your_api_key_here -e BASE_URL=https://api.tirdad.ai/v1 tirdad-mcp node bin/mcp-server.js start
 ```
 
 Next: [Add to your MCP client](#add-to-your-mcp-client) and use the **Node from repo** or **Docker** config below.
 
 ## Add to your MCP client
 
-Add the flexprice MCP server in your editor. Replace `YOUR_API_KEY` with your flexprice API key in all examples. Example config snippets are in [examples/](examples/).
+Add the tirdad MCP server in your editor. Replace `YOUR_API_KEY` with your tirdad API key in all examples. Example config snippets are in [examples/](examples/).
 
 **After connecting:** In Cursor, open the MCP panel and confirm the server is connected. You can list tools and try an operation (e.g. list customers) from your assistant. In Claude, use `/mcp` to see connected servers and available tools.
 
@@ -83,7 +83,7 @@ Add the flexprice MCP server in your editor. Replace `YOUR_API_KEY` with your fl
 ```json
 {
   "mcpServers": {
-    "flexprice": {
+    "tirdad": {
       "command": "npx",
       "args": [
         "-y",
@@ -109,7 +109,7 @@ Add the flexprice MCP server in your editor. Replace `YOUR_API_KEY` with your fl
 ```json
 {
   "servers": {
-    "flexprice": {
+    "tirdad": {
       "type": "stdio",
       "command": "npx",
       "args": [
@@ -131,7 +131,7 @@ Add the flexprice MCP server in your editor. Replace `YOUR_API_KEY` with your fl
 ### Claude Code
 
 ```bash
-claude mcp add flexprice -- npx -y @tirdad-ai/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
+claude mcp add tirdad -- npx -y @tirdad-ai/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
 ```
 
 Then run `claude` and use `/mcp` to confirm the server is connected.
@@ -145,7 +145,7 @@ Add to your Claude Desktop config file (path in the table above):
 ```json
 {
   "mcpServers": {
-    "flexprice": {
+    "tirdad": {
       "command": "npx",
       "args": [
         "-y",
@@ -172,7 +172,7 @@ Quit and reopen Claude Desktop.
 ```json
 {
   "mcpServers": {
-    "flexprice": {
+    "tirdad": {
       "command": "node",
       "args": ["/path/to/mcp-server/bin/mcp-server.js", "start"],
       "env": {
@@ -189,9 +189,9 @@ Quit and reopen Claude Desktop.
 ```json
 {
   "mcpServers": {
-    "flexprice": {
+    "tirdad": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "-e", "API_KEY_APIKEYAUTH", "-e", "BASE_URL", "flexprice-mcp"],
+      "args": ["run", "-i", "--rm", "-e", "API_KEY_APIKEYAUTH", "-e", "BASE_URL", "tirdad-mcp"],
       "env": {
         "API_KEY_APIKEYAUTH": "your_api_key_here",
         "BASE_URL": "https://api.tirdad.ai/v1"
@@ -205,7 +205,7 @@ After editing, save and **restart Cursor or quit and reopen Claude Desktop** so 
 
 ## Tools
 
-The server exposes flexprice API operations as MCP tools. **Only operations with certain OpenAPI tags are included** (e.g. Customers, Invoices, Events). The allowed tags are configured in the repo; the filtered spec is `docs/swagger/swagger-3-0-mcp.json`. Tool names and parameters follow the OpenAPI spec. For the full list, see your MCP client’s tool list after connecting, or the OpenAPI spec (e.g. `docs/swagger/swagger-3-0.json`) in the repo.
+The server exposes tirdad API operations as MCP tools. **Only operations with certain OpenAPI tags are included** (e.g. Customers, Invoices, Events). The allowed tags are configured in the repo; the filtered spec is `docs/swagger/swagger-3-0-mcp.json`. Tool names and parameters follow the OpenAPI spec. For the full list, see your MCP client’s tool list after connecting, or the OpenAPI spec (e.g. `docs/swagger/swagger-3-0.json`) in the repo.
 
 ## Progressive discovery (dynamic mode)
 
@@ -240,7 +240,7 @@ Control which tools are available by specifying scopes at server startup. You ca
 ```json
 {
   "mcpServers": {
-    "flexprice-readonly": {
+    "tirdad-readonly": {
       "command": "npx",
       "args": [
         "-y",
@@ -263,7 +263,7 @@ Control which tools are available by specifying scopes at server startup. You ca
 ```json
 {
   "mcpServers": {
-    "flexprice-full": {
+    "tirdad-full": {
       "command": "npx",
       "args": [
         "-y",
@@ -288,7 +288,7 @@ Control which tools are available by specifying scopes at server startup. You ca
 ```json
 {
   "mcpServers": {
-    "flexprice-admin": {
+    "tirdad-admin": {
       "command": "npx",
       "args": [
         "-y",
@@ -322,9 +322,9 @@ Control which tools are available by specifying scopes at server startup. You ca
 
 ### API connection issues
 
-1. **Credentials:** Check that your API key and base URL are correct. Test the key with the flexprice API (e.g. `curl -H "x-api-key: your_key" https://api.tirdad.ai/v1/customers`).
-2. **Network:** Confirm the host can reach the flexprice API (firewall, proxy).
-3. **Rate limiting:** If you see rate-limit errors, reduce request frequency or contact flexprice support.
+1. **Credentials:** Check that your API key and base URL are correct. Test the key with the tirdad API (e.g. `curl -H "x-api-key: your_key" https://api.tirdad.ai/v1/customers`).
+2. **Network:** Confirm the host can reach the tirdad API (firewall, proxy).
+3. **Rate limiting:** If you see rate-limit errors, reduce request frequency or contact tirdad support.
 
 ### Server issues
 
@@ -336,7 +336,7 @@ Control which tools are available by specifying scopes at server startup. You ca
 
 - **Build failures:** Check Docker is installed and the daemon is running; try `docker build --no-cache`.
 - **Container exits:** Inspect logs with `docker logs <container_id>`.
-- **Env vars:** Verify env is passed: `docker run -it --rm flexprice-mcp printenv`.
+- **Env vars:** Verify env is passed: `docker run -it --rm tirdad-mcp printenv`.
 
 ## Generating the MCP server
 

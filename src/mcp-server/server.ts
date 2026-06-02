@@ -101,7 +101,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Tirdad",
-    version: "2.1.12",
+    version: "2.1.13",
   });
 
   const getClient = deps.getSDK || (() =>
