@@ -1,22 +1,22 @@
 lockVersion: 2.0.0
-id: 09fbfe0b-08fe-4b29-8e74-9ee952e8cdb2
+id: 55f7ea8e-8a05-4114-8075-5d546ed4ed99
 management:
-  docChecksum: 3c9b4a0f27d313e275e752df3fe9c4e8
+  docChecksum: 87ba1e949c16ca2e3998bfeb2e16e9a5
   docVersion: "1.0"
-  speakeasyVersion: 1.784.0
-  generationVersion: 2.911.0
-  releaseVersion: 2.1.20
-  configChecksum: 8eabbafe0d1e0010ff84a22477f20a03
+  speakeasyVersion: 1.788.1
+  generationVersion: 2.915.1
+  releaseVersion: 2.0.21
+  configChecksum: 3b3a7bc802e7e7101479b09ec7e88c2c
   published: true
 persistentEdits:
-  generation_id: 500adc86-6009-4495-9a4e-4d6139d79979
-  pristine_commit_hash: 7c138ef08a98db997248dd548b08435f72c101d9
-  pristine_tree_hash: 3eb5f6f98095af1bec853d282a1714bd19b23846
+  generation_id: e1b1a976-2062-45d4-a1b2-ea24c7b5c7ea
+  pristine_commit_hash: bb94d0f63b4a5589cccd2658de4cbbeb90a1fd26
+  pristine_tree_hash: 524a7d396042d7cbe03426df095c7189fb4359bb
 features:
   mcp-typescript:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.1.2
-    core: 1.3.2
+    core: 1.3.5
     defaultEnabledRetries: 0.1.0
     enumUnions: 0.1.0
     globalSecurity: 0.1.3
@@ -46,12 +46,12 @@ trackedFiles:
     pristine_git_object: 4f9e60a9462fc4def738d60c3aaadf8232ef185f
   manifest.json:
     id: ca642a226869
-    last_write_checksum: sha1:c154c950b574e77dbc35b7a6eff179af0a1f60ab
-    pristine_git_object: c7249e44ed320ba47b2bd1de0e8b77a42468fcd1
+    last_write_checksum: sha1:7237295c9573511da38f8696cd3d2de5a7f6bac5
+    pristine_git_object: aab97fb3a26d743b862e73ba41ff94bf90b4e0e1
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:8e7b911b7924aed8ea6d9ebc62755e7237430111
-    pristine_git_object: f254d79623476ba291ea8f12a4e63e18f455f35e
+    last_write_checksum: sha1:305c89dd46991f06970a1f2bd28f3d5e98ff2531
+    pristine_git_object: 811b0d6ea9fd0262764a92ce4f92f328fe63fb14
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:fb25a91b06ec26c1245d17f7e5903578aef39362
@@ -76,6 +76,10 @@ trackedFiles:
     id: e0ae5ce768f0
     last_write_checksum: sha1:eb7b7d0f02858222fda3b669a029ab6cada18050
     pristine_git_object: 9c03855e63e578aec6baa8a678b8382da69f73b0
+  src/funcs/customersGetCustomerEntitlementsByExternalID.ts:
+    id: 94de72a75cfb
+    last_write_checksum: sha1:c2f23c9db02d874c6f8d21efa63527541f920015
+    pristine_git_object: 7fa314f603884e31ee73fc99da0f83c4577ba15e
   src/funcs/customersGetCustomerUpcomingGrants.ts:
     id: ebbb983e9e8c
     last_write_checksum: sha1:7ccac204171fd146f9efbeba6b4567e2c3873b39
@@ -354,8 +358,8 @@ trackedFiles:
     pristine_git_object: d4bd8b341290e7a828a171d840bd0b0fff7c7cd7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:2f7c22632221a4db08a68b48b2e2720c7c880bf8
-    pristine_git_object: e296539c96dc0a70cfb00849f71d7b114525a641
+    last_write_checksum: sha1:6b049f5c4dcceac287ee4ff875b3f40b09693f90
+    pristine_git_object: 3c4c6424001ca7eb15db2454e518e6fb677b39bc
   src/lib/encodings.ts:
     id: 3bd8ead98afd
     last_write_checksum: sha1:3ff4ad6809b749125820fd39c01427b84d3fe0d6
@@ -438,8 +442,8 @@ trackedFiles:
     pristine_git_object: b42d7cda985b8199f2245063f22bb68efb5ecdd0
   src/mcp-server/mcp-server.ts:
     id: aabbc4ab07c1
-    last_write_checksum: sha1:99dfecf146be6f31ab12f4696c8b14685277b867
-    pristine_git_object: 2324d63b0ce429b1ff0d776efde57845e7321406
+    last_write_checksum: sha1:3339632b5fe5202206ed8489b45f1e1d6a3617a6
+    pristine_git_object: 0c89382dc604bfd5ce1c0b6cd99e67cba11fdddd
   src/mcp-server/prompts.ts:
     id: 26f3d73cbf31
     last_write_checksum: sha1:5ce246d477e99766e090be4b0503b88c249a7d34
@@ -454,16 +458,16 @@ trackedFiles:
     pristine_git_object: 15f4f5d0e9477ad34c3879321ed36111f9d4cbe1
   src/mcp-server/server.ts:
     id: 2784dd48e82a
-    last_write_checksum: sha1:9d27187232b4c36f612246d80cf2473ffb5e6abc
-    pristine_git_object: 60a14099958d90530af3a4a430579c91db937ecc
+    last_write_checksum: sha1:66b2cf84fa5ecf2715782052b4cb10f2cd33e370
+    pristine_git_object: 23c5e04873c8228338431b1ae42d7e11f1088929
   src/mcp-server/shared.ts:
     id: 074e80d4be1e
     last_write_checksum: sha1:19c9034032819a14f15c430de4350c8aba99d725
     pristine_git_object: bb74a74788ebd7d11262f5f63b8fdd29ab817f48
   src/mcp-server/tools.ts:
     id: 654d5d1f2062
-    last_write_checksum: sha1:8479de8d8ee0adbd9c87e4039b81d3f8e1ec8fd8
-    pristine_git_object: 95896a73c6ef56833dd781b0c753f4c6d4066135
+    last_write_checksum: sha1:ede50b4f12f96d8bcca1232227c275fee3fc2d24
+    pristine_git_object: ed24ef7ec541c3c21efb7e7d88e04f70ed72fe1e
   src/mcp-server/tools/customersCreateCustomer.ts:
     id: 7afe19b5356c
     last_write_checksum: sha1:688605da49696c31d593e4f86482f491976ecb2f
@@ -484,6 +488,10 @@ trackedFiles:
     id: 5d339384d89e
     last_write_checksum: sha1:ba90655691e8e78820cd2339a42ee96c7a9b386a
     pristine_git_object: 91ae310725cfcee5a5bd3c8b8aeb3150faa27d9e
+  src/mcp-server/tools/customersGetCustomerEntitlementsByExternalID.ts:
+    id: 1752399661b2
+    last_write_checksum: sha1:d88fa1b566f91a1ecd2226df16f8966731d171c7
+    pristine_git_object: c40c978714a35ca9feb0af37edfeb9796f45ca0c
   src/mcp-server/tools/customersGetCustomerUpcomingGrants.ts:
     id: 21edbcf46485
     last_write_checksum: sha1:9d42263ed61baa2ff92979fa395131656df8d40a
@@ -794,8 +802,8 @@ trackedFiles:
     pristine_git_object: f41cfbfadf52018387185c290efcb2828d583025
   src/models/aggregatedentitlement.ts:
     id: 425679c6eb05
-    last_write_checksum: sha1:8abb501ab3636089cb7ecee5bce8fe14c29a8980
-    pristine_git_object: a73bceabf2dd0f4c5e0b17eedf0f758427743815
+    last_write_checksum: sha1:4a538791aba03a05a322ebbdf77096d3a9d4b42e
+    pristine_git_object: 9183f6627c6da7565e9a3b3826881e7439a1168a
   src/models/aggregatedfeature.ts:
     id: 6973a189fba8
     last_write_checksum: sha1:9eafea50ba79d453b831cf3dde9a4d5860890c81
@@ -964,22 +972,22 @@ trackedFiles:
     id: 6dd4c471fb83
     last_write_checksum: sha1:b08920c52ca8a098b0a72eb6aa423861fc5e014c
     pristine_git_object: fe85a654943d82777255cac1a60e969b7e8000cc
-  src/models/coupon.ts:
-    id: b4fc159ac340
-    last_write_checksum: sha1:1b5b1ab9cb7f1a4ae0d571decdacefd4b84ad121
-    pristine_git_object: 66f8d85891ebf1bc7551432b532b719acc3f5846
   src/models/couponapplicationresponse.ts:
     id: 6dd1028b916e
     last_write_checksum: sha1:226b85d95201d1cebd520ace55fdb565b9676364
     pristine_git_object: 8d7c48d51162b7815e7f07d94d497023f03fd90f
   src/models/couponassociationresponse.ts:
     id: 55ca1448d48e
-    last_write_checksum: sha1:20de6a82ff98e84cf32db10dc9eb0d61bcde9624
-    pristine_git_object: d47006ef30bae3a269439c97f37a86eaea1d83e8
+    last_write_checksum: sha1:6e7c8b0e8d469c61b7f71cf32d417fb622974fad
+    pristine_git_object: b8271fdab8e220cdf1a4075f1ab52ae31d6f0a7d
   src/models/couponcadence.ts:
     id: f5d2185e6323
     last_write_checksum: sha1:3bbfe943d84371e299164459517e46d5bc896792
     pristine_git_object: 7491c3259f142cf4a38cde87697b16bafdbe8808
+  src/models/couponresponse.ts:
+    id: 3c10534cbf52
+    last_write_checksum: sha1:6a741354fa0da2b52e9e7e7323a92513f46ef4d2
+    pristine_git_object: 194bcbb82550d09fd921bf74fa720478acbc26c6
   src/models/coupontype.ts:
     id: 1e31e97d2a78
     last_write_checksum: sha1:42d7f73a21a06358249786a9a7e8eaa80278257e
@@ -1002,8 +1010,8 @@ trackedFiles:
     pristine_git_object: be66f346e084d7937d736f78b4b85e89c4aac9b6
   src/models/createcustomerrequest.ts:
     id: 68b5acf04232
-    last_write_checksum: sha1:7924063eeb802371348ab9b8286d28bdeb6f123b
-    pristine_git_object: b0ecb0d845caeba7c33b3e8408a6743f5c7bded1
+    last_write_checksum: sha1:9d0c3ec60842108ee00911166a68f0069a04b526
+    pristine_git_object: e6de75b7153ee46204b548ceaeb420cf0b95d726
   src/models/createentityintegrationmappingrequest.ts:
     id: e5e7ed7c76fc
     last_write_checksum: sha1:43f12be08b6f8d4a826d5f1021f74c80bcb24f9c
@@ -1058,8 +1066,8 @@ trackedFiles:
     pristine_git_object: bc3273259cd8d51cb4ec81063022871b85826d43
   src/models/createsubscriptionrequest.ts:
     id: 71cce2551aaa
-    last_write_checksum: sha1:c0d40350462da5675e47e3c21c0b8d774263e690
-    pristine_git_object: 84079fbf74f908ef3054213bbd50d711e1dcf28a
+    last_write_checksum: sha1:8319d7ca189863b412c3e549fdba322814163330
+    pristine_git_object: ff8c6ed4ca4dac6d00e30c1dbb6941b9d4f58a6d
   src/models/creditbreakdown.ts:
     id: c9a386d31a9d
     last_write_checksum: sha1:d16866b2771b0d8582fdca8a3881346f81c255b2
@@ -1102,12 +1110,12 @@ trackedFiles:
     pristine_git_object: d87e292fa51713fd5afe23b79f073a902e3b6769
   src/models/customer.ts:
     id: 20be78c552a4
-    last_write_checksum: sha1:b3e6ec7693aa0f64a257e9f539c546caa0ed66e6
-    pristine_git_object: 87b7ff2664f08750ab8216993463018163c7ca19
+    last_write_checksum: sha1:209632ad2ee0444fd645ddc67630312474aafc57
+    pristine_git_object: 1510aa964d61ee7e3eec4f108615df613ea55204
   src/models/customerentitlementsresponse.ts:
     id: 1d9cfc19d007
-    last_write_checksum: sha1:e55b9c3927462b4eeb9e9d0538c49d65230e619a
-    pristine_git_object: a73fe8e8aa8ebfefb9d522a416ac7a87f177530a
+    last_write_checksum: sha1:7e1370e5c858ad6a9b75c7ff1ebf79a90c4b7722
+    pristine_git_object: 849eefa8cbdd66b8ea749a5bca1f0ae71898cd8a
   src/models/customerfilter.ts:
     id: 025d780691d6
     last_write_checksum: sha1:f099d9036213f2339538ad86f419adcb3406c6eb
@@ -1126,8 +1134,8 @@ trackedFiles:
     pristine_git_object: ff20141f847290cec4569065729ccfbeee268690
   src/models/customerresponse.ts:
     id: 15f3b850944c
-    last_write_checksum: sha1:d16231e043f9251cdbf64e4dd670d2d5967b1155
-    pristine_git_object: e6799acd0422340dd0b28858acdbeac19cc57bc2
+    last_write_checksum: sha1:0e0c5ad043f8c9d78ec0467a73eee4ee8393dbb4
+    pristine_git_object: 000008999786d1f28edfdfb0dc591bb07712e7db
   src/models/customerusagesummaryresponse.ts:
     id: 7a62b5714f23
     last_write_checksum: sha1:6ff24aad510143b9ae451745433b0cc463f3cf14
@@ -1174,12 +1182,12 @@ trackedFiles:
     pristine_git_object: a918e02e5305de44c57596ada64e8873110fa59a
   src/models/entitlementresponse.ts:
     id: 995e6a4ad6d4
-    last_write_checksum: sha1:b923edb18cb0e22105d8446535d5666a1a337f87
-    pristine_git_object: 4482b7e7b280f176cb5dba8d4922a0a0dd8a5c8a
+    last_write_checksum: sha1:7c451bfaa64ecfe6b841bcf616b7e48a3dc711f7
+    pristine_git_object: b1b7f400368d3c0da69bc8ab5565ed736bef6319
   src/models/entitlementsource.ts:
     id: d860118e2520
-    last_write_checksum: sha1:1770aa8a37c02930bf84cdb7788f7f413f001b8e
-    pristine_git_object: e14406fd0bd9170a9eab5622049fd29dfdfc91c3
+    last_write_checksum: sha1:68692201c12b48747fe2e7b394c23ce404d8dc03
+    pristine_git_object: eac3f4c5390f75af09ff99d940c3eed5f5251fdb
   src/models/entitlementsourceentitytype.ts:
     id: 71f88a6f4a41
     last_write_checksum: sha1:4b9a20f57a3d8dfc7f8c1800e7fa70699165640c
@@ -1254,8 +1262,8 @@ trackedFiles:
     pristine_git_object: 983ac1173a555f479f224aa94aa68a22fdcec022
   src/models/featuretype.ts:
     id: d40a30d89f50
-    last_write_checksum: sha1:ab0e77faf3c5ac62df732ce9b567d34e5a7a7f51
-    pristine_git_object: 26b4e6bf3f7131375be8c89441b5dddd3cf8a969
+    last_write_checksum: sha1:906e931b1e7a928db3614527417e2dc4c68c1f6a
+    pristine_git_object: 9c3fe26bdc3f10f28c03cba26b8e6c36d31d9ed6
   src/models/featureusageinfo.ts:
     id: 90be661b1eaf
     last_write_checksum: sha1:1d467aee5262768df5dda5a8278f53501dfc73d9
@@ -1280,6 +1288,10 @@ trackedFiles:
     id: f3d06baf1caf
     last_write_checksum: sha1:0b9ab74ae4277bdf255bf2533a2f2299783302db
     pristine_git_object: f337ecad4d8ec5ec1ac22ca78baab498247ee18c
+  src/models/getcustomerentitlementsbyexternalidop.ts:
+    id: b0aa335a5096
+    last_write_checksum: sha1:c258d4f0940bc40365f54ae64353dd57134cf21d
+    pristine_git_object: 1746ce7573b234d0fd6fd17c25185675d3553f70
   src/models/getcustomerentitlementsop.ts:
     id: 201b33982a18
     last_write_checksum: sha1:56c2305cb6c90acef5a202b0e3247bffb8f48328
@@ -1394,16 +1406,16 @@ trackedFiles:
     pristine_git_object: ddde708edf8c2ac185a69a36c484c05ab0b80456
   src/models/getusageanalyticsresponse.ts:
     id: 10762d83f4e8
-    last_write_checksum: sha1:95f8d39e2e7c558543a7d0bf04bbb13456c68a43
-    pristine_git_object: c557c7ce73aac8379a2f3df1ed60857ea532c8a1
+    last_write_checksum: sha1:ac3ba3fc6bf3849c1d6ee92ab9fcd9324995d62b
+    pristine_git_object: 652c0c9e9f0f82a9d0687aa8b79598830bde2d5f
   src/models/getusagebymeterop.ts:
     id: 9bf69531a9ec
     last_write_checksum: sha1:699684ceb9cc4a6acf6c4647a30352c9eb2e7d3b
     pristine_git_object: 12c8b29b65910c9e79751549ad02fc4c09fda025
   src/models/getusagebymeterrequest.ts:
     id: 5d975355de14
-    last_write_checksum: sha1:3ea115bc0159c7f157ae04deeac54b671cb7d7ff
-    pristine_git_object: 1d6531b279cf9e6d1ede62348ed457ea3b0eea10
+    last_write_checksum: sha1:263dc06d9f890144c333624fe8bb25442141230b
+    pristine_git_object: 7ec4aa4d02240e06252caba56594a121c373aad0
   src/models/getusagebysubscriptionrequest.ts:
     id: 9deaeea08a87
     last_write_checksum: sha1:57e724fda1b38255cfb952a0ee749c91ebe09e5a
@@ -1414,8 +1426,8 @@ trackedFiles:
     pristine_git_object: 9971a2b3ffffb3b295c7632e66fbc9d5c8917017
   src/models/getusagerequest.ts:
     id: 9cda67d2f20b
-    last_write_checksum: sha1:15911ad65b86ed8b2d23d893ebf82ba460f16e28
-    pristine_git_object: ffd88a3cebf421d92114135e5de583496e58e4ff
+    last_write_checksum: sha1:970c9a65e0c44dbade7d6f2b2d02fc45eabc09be
+    pristine_git_object: dff52adeb867ca197d7ab4381eb48857d8821419
   src/models/getusageresponse.ts:
     id: d36c544bbf61
     last_write_checksum: sha1:5718acc6c68253917ce736a305758d9da890d400
@@ -1594,8 +1606,8 @@ trackedFiles:
     pristine_git_object: cf87d16b8b512fb0da8566f0485199e989a093a5
   src/models/overrideentitlementrequest.ts:
     id: 69057f1fbff9
-    last_write_checksum: sha1:9587bed49822aa02572bdc164bef91932c9ef7cf
-    pristine_git_object: f5579dc024c9740e4501bd040fda58ce4a5a4d18
+    last_write_checksum: sha1:096a958a0959d672d558b73f736a2027660542f8
+    pristine_git_object: ebebe31831049a9a0eadaa5ee80c772f5f462ff5
   src/models/overridelineitemrequest.ts:
     id: dc2453244ccb
     last_write_checksum: sha1:a6854ebd66f9c837381b8e72bb44f88408dbc371
@@ -1618,8 +1630,8 @@ trackedFiles:
     pristine_git_object: 9d2eccc7b93b9f756ed003a24aebaf24bc643f4f
   src/models/paymentstatus.ts:
     id: ab84f3ffda26
-    last_write_checksum: sha1:e6ee819ef4e25c99b6358ffaf4789fb5e5e340e5
-    pristine_git_object: e7b2eaa715e3f0a1860385873e574a09ea953dc2
+    last_write_checksum: sha1:12aa3c5b7f1826d9e9b504b25a61554452854a65
+    pristine_git_object: 411665607ffc2b1925f5c21fc235f3efdf0738f9
   src/models/paymentterms.ts:
     id: 78e30f9fa044
     last_write_checksum: sha1:7e4b4443678be55b80a4f099d082d46e722002f2
@@ -1866,8 +1878,8 @@ trackedFiles:
     pristine_git_object: 0b90ccc758dfd0903d3392d3ffdb832735e4a71b
   src/models/subscriptionlineitemfilter.ts:
     id: 7731e9efc1dc
-    last_write_checksum: sha1:e2405aafbb0f37d26ac862cc067ff6d68c244e1f
-    pristine_git_object: 382572b1e455966e54f97ebff391244b48935016
+    last_write_checksum: sha1:edb66e45bc9324e960a1aba6276a002077373175
+    pristine_git_object: 27c09c4bbbadbb2a86c422e8df6f7465bec064b8
   src/models/subscriptionlineitemlookupresult.ts:
     id: 0c1f07fc3e73
     last_write_checksum: sha1:87f452c4d7b5b5b2abe09612bca52bd2085424bb
@@ -1898,12 +1910,12 @@ trackedFiles:
     pristine_git_object: 0812ea7cbf0fc277247cb06aa1fec3116bc61109
   src/models/subscriptionresponse.ts:
     id: 398ad499853d
-    last_write_checksum: sha1:14f0b04064ce3aced04c9841d03ffff0dc0467c1
-    pristine_git_object: 8f189728286f247fed4c01ae3230dd1fae3d3e04
+    last_write_checksum: sha1:76aa84d7f2d1cba442bc4e73b66879474dc75e14
+    pristine_git_object: 1aa119fe47dd0d4e47a73beef7ba81f51cebe22c
   src/models/subscriptionresponsev2.ts:
     id: 4e59d0649e85
-    last_write_checksum: sha1:762da4c1534d798b4678b39b10309c338885cbf2
-    pristine_git_object: 7ffdb491629d160171c4c47de74cb10d1566e5aa
+    last_write_checksum: sha1:66155611f917c5a1ed408a76db8eacbd3dd4aa8c
+    pristine_git_object: d9add04e7ff8d5291636307aaf69346323d64795
   src/models/subscriptionschedulechangetype.ts:
     id: f94a80002565
     last_write_checksum: sha1:d6812e1f6456b6c3740d368bd8222631027e2980
@@ -2010,8 +2022,8 @@ trackedFiles:
     pristine_git_object: 0d555d7e6326dd8950a045d77a473da2adf2dc8d
   src/models/updatecustomerrequest.ts:
     id: f06fc51d937b
-    last_write_checksum: sha1:a5abbc466b57b7b5279c8acfa243f466a7c9f485
-    pristine_git_object: 4695cd35a323f19abaaad0e93f9d135fb4c8fd93
+    last_write_checksum: sha1:b533a62d399bdc8d7b2d1873e7c75748355038a9
+    pristine_git_object: 6e7918e9cb5062f06fdbab909ebdcbf092df7117
   src/models/updateinvoiceop.ts:
     id: 5503308f5792
     last_write_checksum: sha1:9f56d87897e0e34b6eebd453ea6286a4c31e123e
@@ -2062,12 +2074,12 @@ trackedFiles:
     pristine_git_object: feae57f6322db41536ff9cd606daa283fef8681a
   src/models/usageanalyticitem.ts:
     id: 394efd15d60f
-    last_write_checksum: sha1:7a17707dd4fc4d29e93b14031fdd8aad94c381c9
-    pristine_git_object: 012cd04fdf594bc80192c624a86d783e33ad2879
+    last_write_checksum: sha1:c8189bd1969eecd08db265d07cc23084de80ef60
+    pristine_git_object: 817508681ea5da4f1f4e57308d0bd214957ded26
   src/models/usageanalyticpoint.ts:
     id: dd94c92569a3
-    last_write_checksum: sha1:9ccea343182836dc125b749f72df7b9446e47f51
-    pristine_git_object: 59affe29f6bcc6d42bf1b7d8ded9d88391b344dc
+    last_write_checksum: sha1:5e5ad12a2d48c5f93de5eca6129b13f80b8d6b96
+    pristine_git_object: 774fe95bb76d2145b9d1eb3f9c45e56f5d55e18e
   src/models/usagebreakdownitem.ts:
     id: 61b9187acada
     last_write_checksum: sha1:f2bbe83e788ff4c1e3ac8f99afb3c719afbbf034
@@ -2195,6 +2207,18 @@ examples:
           application/json: {}
         "500":
           application/json: {}
+  getCustomerEntitlementsByExternalID:
+    speakeasy-default-get-customer-entitlements-by-external-ID:
+      parameters:
+        path:
+          external_id: "<id>"
+      responses:
+        "200":
+          application/json: {"features": [{"feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}}], "subscriptions": [{"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}]}
+        "400":
+          application/json: {}
+        "500":
+          application/json: {}
   queryCustomer:
     speakeasy-default-query-customer:
       requestBody:
@@ -2244,7 +2268,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: {"features": [{"feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}}]}
+          application/json: {"features": [{"feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}}], "subscriptions": [{"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}]}
         "400":
           application/json: {}
         "500":
@@ -2279,7 +2303,7 @@ examples:
         application/json: {"amount_due": "<value>", "currency": "Surinam Dollar", "customer_id": "<id>", "subtotal": "<value>", "total": "<value>"}
       responses:
         "201":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2290,7 +2314,7 @@ examples:
         application/json: {"hide_zero_charges_line_items": false, "subscription_id": "<id>"}
       responses:
         "200":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2301,7 +2325,7 @@ examples:
         application/json: {}
       responses:
         "200":
-          application/json: {"items": [{"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}]}
+          application/json: {"items": [{"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}]}
         "400":
           application/json: {}
         "500":
@@ -2313,7 +2337,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "404":
           application/json: {}
         "500":
@@ -2327,7 +2351,7 @@ examples:
         application/json: {}
       responses:
         "200":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2365,7 +2389,7 @@ examples:
         application/json: {"payment_status": "INITIATED"}
       responses:
         "200":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2413,7 +2437,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2692,7 +2716,7 @@ examples:
         application/json: {"billing_period": "ONETIME", "currency": "Kwacha", "plan_id": "<id>"}
       responses:
         "201":
-          application/json: {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}
+          application/json: {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}
         "400":
           application/json: {}
         "500":
@@ -2703,7 +2727,7 @@ examples:
         application/json: {"addon_id": "<id>", "subscription_id": "<id>"}
       responses:
         "200":
-          application/json: {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "subscription": {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {}}}, "plan": {}}}
+          application/json: {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2764,7 +2788,7 @@ examples:
         application/json: {}
       responses:
         "200":
-          application/json: {"items": [{"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}]}
+          application/json: {"items": [{"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}]}
         "400":
           application/json: {}
         "500":
@@ -2787,7 +2811,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}
+          application/json: {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}
         "400":
           application/json: {}
         "500":
@@ -2801,7 +2825,7 @@ examples:
         application/json: {}
       responses:
         "200":
-          application/json: {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}
+          application/json: {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}
         "400":
           application/json: {}
         "500":
@@ -2815,7 +2839,7 @@ examples:
         application/json: {"start_date": "2026-02-04T05:02:31.632Z"}
       responses:
         "200":
-          application/json: {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}
+          application/json: {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}
         "400":
           application/json: {}
         "500":
@@ -2827,7 +2851,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: [{"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "subscription": {"latest_invoice": {"subscription": {"latest_invoice": {}, "plan": {}}}, "plan": {}}}]
+          application/json: [{"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {}, "plan": {}}}, "plan": {}}}]
         "400":
           application/json: {}
         "500":
@@ -2841,7 +2865,7 @@ examples:
         application/json: {"cancellation_type": "immediate"}
       responses:
         "200":
-          application/json: {"proration_invoice": {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}}
+          application/json: {"proration_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}}
         "400":
           application/json: {}
         "500":
@@ -2855,7 +2879,7 @@ examples:
         application/json: {"billing_cadence": "RECURRING", "billing_cycle": "anniversary", "billing_period": "ANNUAL", "proration_behavior": "none", "target_plan_id": "<id>"}
       responses:
         "200":
-          application/json: {"invoice": {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}}
+          application/json: {"invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}}
         "400":
           application/json: {}
         "500":
@@ -2921,7 +2945,7 @@ examples:
         application/json: {"type": "inheritance"}
       responses:
         "200":
-          application/json: {"changed_resources": {"invoices": [{"invoice": {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}}]}, "subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"changed_resources": {"invoices": [{"invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}}]}, "subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2935,7 +2959,7 @@ examples:
         application/json: {"type": "coupon"}
       responses:
         "200":
-          application/json: {"changed_resources": {"invoices": [{"invoice": {"subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}}]}, "subscription": {"latest_invoice": {"subscription": {"plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}, "plan": {"entitlements": [{"addon": {"prices": [{"addon": {}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}}}
+          application/json: {"changed_resources": {"invoices": [{"invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}}]}, "subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "latest_invoice": {"subscription": {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "plan": {}}}, "plan": {}}}
         "400":
           application/json: {}
         "500":
@@ -2947,7 +2971,7 @@ examples:
           id: "<id>"
       responses:
         "200":
-          application/json: {"line_items": [{"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}], "plan": {}}
+          application/json: {"coupon_associations": [{"subscription_line_item": {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}}], "line_items": [{"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}], "plan": {}}
         "400":
           application/json: {}
         "500":
