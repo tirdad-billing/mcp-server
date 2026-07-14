@@ -28,7 +28,7 @@ export type CreateCustomerRequest = {
     | Array<CreateEntityIntegrationMappingRequest>
     | undefined;
   metadata?: { [k: string]: string } | undefined;
-  name?: string | undefined;
+  name: string;
   skip_onboarding_workflow?: boolean | undefined;
   tax_rate_overrides?: Array<TaxRateOverride> | undefined;
   timezone?: string | undefined;
@@ -68,7 +68,7 @@ export const CreateCustomerRequest$zodSchema: z.ZodType<CreateCustomerRequest> =
     metadata: z.record(z.string(), z.string()).optional().describe(
       "metadata contains additional key-value pairs for storing extra information",
     ),
-    name: z.string().optional().describe(
+    name: z.string().describe(
       "name is the full name or company name of the customer",
     ),
     skip_onboarding_workflow: z.boolean().optional().describe(
