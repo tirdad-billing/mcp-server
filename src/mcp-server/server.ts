@@ -102,7 +102,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Tirdad",
-    version: "2.1.21",
+    version: "2.1.22",
   });
 
   const getClient = deps.getSDK || (() =>
@@ -175,10 +175,10 @@ export function createMCPServer(deps: {
   tool(tool$eventsGetUsageAnalytics);
   tool(tool$eventsIngestEventsBulk);
   tool(tool$eventsGetHuggingfaceInferenceData);
+  tool(tool$eventsGetEvent);
   tool(tool$eventsListRawEvents);
   tool(tool$eventsGetUsageStatistics);
   tool(tool$eventsGetUsageByMeter);
-  tool(tool$eventsGetEvent);
   tool(tool$plansCreatePlan);
   tool(tool$plansQueryPlan);
   tool(tool$plansGetPlan);

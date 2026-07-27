@@ -110,6 +110,6 @@ export const SubscriptionFilter$zodSchema: z.ZodType<SubscriptionFilter> = z
       "TrialEndDueLTE, when set, restricts to subscriptions with trial_end not nil and trial_end <= trial_end_due_lte.\nUse with subscription_status trialing for trial-end cron processing.",
     ),
     with_line_items: z.boolean().optional().describe(
-      "WithLineItems includes line items in the response",
+      "WithLineItems includes line items in the response.\n\nDeprecated: use expand=\"subscription_line_items\" instead. Retained for\nbackwards compatibility and for internal callers that need to force-disable\nline item loading (set to false). The service layer ORs this with the\nexpand check before invoking the repository.",
     ),
   });

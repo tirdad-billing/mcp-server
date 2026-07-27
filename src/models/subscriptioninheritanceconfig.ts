@@ -3,9 +3,16 @@
  */
 
 import * as z from "zod";
+import {
+  GroupedInvoicingChildRequest,
+  GroupedInvoicingChildRequest$zodSchema,
+} from "./groupedinvoicingchildrequest.js";
 
 export type SubscriptionInheritanceConfig = {
   external_customer_ids_to_inherit_subscription?: Array<string> | undefined;
+  grouped_invoicing_children_to_create?:
+    | Array<GroupedInvoicingChildRequest>
+    | undefined;
   invoicing_customer_external_id?: string | undefined;
   parent_subscription_id?: string | undefined;
   subscriptions_ids_for_grouped_invoicing?: Array<string> | undefined;
@@ -18,6 +25,11 @@ export const SubscriptionInheritanceConfig$zodSchema: z.ZodType<
     .describe(
       "ExternalCustomerIDsToInheritSubscription: child customer external IDs for which\ninherited skeleton subscriptions will be created. Only valid for parent behavior.",
     ),
+  grouped_invoicing_children_to_create: z.array(
+    GroupedInvoicingChildRequest$zodSchema,
+  ).optional().describe(
+    "grouped_invoicing_children_to_create creates new grouped_invoicing children under this parent",
+  ),
   invoicing_customer_external_id: z.string().optional().describe(
     "InvoicingCustomerExternalID sets a different billing recipient (external ID).\nRequired for delegated; rejected for inherited; optional for others.",
   ),

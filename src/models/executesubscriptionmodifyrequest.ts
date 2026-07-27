@@ -3,6 +3,7 @@
  */
 
 import * as z from "zod";
+import { CheckoutParams, CheckoutParams$zodSchema } from "./checkoutparams.js";
 import {
   SubModifyCouponParams,
   SubModifyCouponParams$zodSchema,
@@ -33,6 +34,7 @@ import {
 } from "./subscriptionmodifytype.js";
 
 export type ExecuteSubscriptionModifyRequest = {
+  checkout?: CheckoutParams | undefined;
   coupon_params?: SubModifyCouponParams | undefined;
   grouped_invoicing_params?: SubModifyGroupedInvoicingParams | undefined;
   inheritance_params?: SubModifyInheritanceRequest | undefined;
@@ -45,6 +47,7 @@ export type ExecuteSubscriptionModifyRequest = {
 export const ExecuteSubscriptionModifyRequest$zodSchema: z.ZodType<
   ExecuteSubscriptionModifyRequest
 > = z.object({
+  checkout: CheckoutParams$zodSchema.optional(),
   coupon_params: SubModifyCouponParams$zodSchema.optional(),
   grouped_invoicing_params: SubModifyGroupedInvoicingParams$zodSchema
     .optional(),

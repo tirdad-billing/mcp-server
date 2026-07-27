@@ -3,6 +3,10 @@
  */
 
 import * as z from "zod";
+import {
+  AggregatedFeature,
+  AggregatedFeature$zodSchema,
+} from "./aggregatedfeature.js";
 import { BillingCadence, BillingCadence$zodSchema } from "./billingcadence.js";
 import { BillingCycle, BillingCycle$zodSchema } from "./billingcycle.js";
 import { BillingPeriod, BillingPeriod$zodSchema } from "./billingperiod.js";
@@ -76,6 +80,7 @@ export type SubscriptionResponse = {
   customer_id?: string | undefined;
   enable_true_up?: boolean | undefined;
   end_date?: string | undefined;
+  entitlements?: Array<AggregatedFeature> | undefined;
   environment_id?: string | undefined;
   gateway_payment_method_id?: string | undefined;
   id?: string | undefined;
@@ -168,6 +173,9 @@ export const SubscriptionResponse$zodSchema: z.ZodType<SubscriptionResponse> = z
     enable_true_up: z.boolean().optional(),
     end_date: z.iso.datetime({ offset: true }).optional().describe(
       "EndDate is the end date of the subscription",
+    ),
+    entitlements: z.array(AggregatedFeature$zodSchema).optional().describe(
+      "Entitlements is populated only when the caller adds \"entitlements\" to\nthe search filter's expand string. Each entry is a feature with its\naggregated entitlement info (same shape as CustomerEntitlementsResponse.Features).",
     ),
     environment_id: z.string().optional().describe(
       "EnvironmentID is the environment identifier for the subscription",
