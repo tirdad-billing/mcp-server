@@ -25,6 +25,7 @@ import { tool$customersGetCustomerEntitlements } from "./tools/customersGetCusto
 import { tool$customersGetCustomerEntitlementsByExternalID } from "./tools/customersGetCustomerEntitlementsByExternalID.js";
 import { tool$customersGetCustomerUpcomingGrants } from "./tools/customersGetCustomerUpcomingGrants.js";
 import { tool$customersGetCustomerUsageSummary } from "./tools/customersGetCustomerUsageSummary.js";
+import { tool$customersGetSubscriptionsForCustomer } from "./tools/customersGetSubscriptionsForCustomer.js";
 import { tool$customersQueryCustomer } from "./tools/customersQueryCustomer.js";
 import { tool$customersUpdateCustomer } from "./tools/customersUpdateCustomer.js";
 import { tool$eventsGetEvent } from "./tools/eventsGetEvent.js";
@@ -102,7 +103,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "Tirdad",
-    version: "2.1.22",
+    version: "2.1.23",
   });
 
   const getClient = deps.getSDK || (() =>
@@ -151,6 +152,7 @@ export function createMCPServer(deps: {
   tool(tool$customersCreateCustomer);
   tool(tool$customersGetCustomerByExternalId);
   tool(tool$customersGetCustomerEntitlementsByExternalID);
+  tool(tool$customersGetSubscriptionsForCustomer);
   tool(tool$customersQueryCustomer);
   tool(tool$customersGetCustomerUsageSummary);
   tool(tool$customersGetCustomer);

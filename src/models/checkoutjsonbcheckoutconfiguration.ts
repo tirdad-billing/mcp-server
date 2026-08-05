@@ -11,10 +11,15 @@ import {
   ModifySubscriptionParams,
   ModifySubscriptionParams$zodSchema,
 } from "./modifysubscriptionparams.js";
+import {
+  WalletTopupParams,
+  WalletTopupParams$zodSchema,
+} from "./wallettopupparams.js";
 
 export type CheckoutJSONBCheckoutConfiguration = {
   create_subscription_params?: CreateSubscriptionParams | undefined;
   modify_subscription_params?: ModifySubscriptionParams | undefined;
+  wallet_topup_params?: WalletTopupParams | undefined;
 };
 
 export const CheckoutJSONBCheckoutConfiguration$zodSchema: z.ZodType<
@@ -22,4 +27,5 @@ export const CheckoutJSONBCheckoutConfiguration$zodSchema: z.ZodType<
 > = z.object({
   create_subscription_params: CreateSubscriptionParams$zodSchema.optional(),
   modify_subscription_params: ModifySubscriptionParams$zodSchema.optional(),
+  wallet_topup_params: WalletTopupParams$zodSchema.optional(),
 });

@@ -23,21 +23,19 @@ export const SubscriptionInheritanceConfig$zodSchema: z.ZodType<
 > = z.object({
   external_customer_ids_to_inherit_subscription: z.array(z.string()).optional()
     .describe(
-      "ExternalCustomerIDsToInheritSubscription: child customer external IDs for which\ninherited skeleton subscriptions will be created. Only valid for parent behavior.",
+      "ExternalCustomerIDsToInheritSubscription creates inherited skeleton subscriptions for child customers. Parent only.",
     ),
   grouped_invoicing_children_to_create: z.array(
     GroupedInvoicingChildRequest$zodSchema,
-  ).optional().describe(
-    "grouped_invoicing_children_to_create creates new grouped_invoicing children under this parent",
-  ),
+  ).optional(),
   invoicing_customer_external_id: z.string().optional().describe(
-    "InvoicingCustomerExternalID sets a different billing recipient (external ID).\nRequired for delegated; rejected for inherited; optional for others.",
+    "InvoicingCustomerExternalID routes invoices to a different customer. Required for delegated; rejected for inherited.",
   ),
   parent_subscription_id: z.string().optional().describe(
-    "ParentSubscriptionID links this subscription to an existing parent.\nRequired for inherited and grouped_invoicing; rejected for standalone, delegated, parent.",
+    "ParentSubscriptionID links to an existing parent. Required for inherited/grouped_invoicing; rejected for standalone/delegated/parent.",
   ),
   subscriptions_ids_for_grouped_invoicing: z.array(z.string()).optional()
     .describe(
-      "SubscriptionsIDsForGroupedInvoicing: existing standalone subscription IDs to convert to\ngrouped_invoicing under this parent at creation time. Only valid for parent behavior.",
+      "SubscriptionsIDsForGroupedInvoicing converts existing standalone subscriptions to grouped_invoicing under this parent. Parent only.",
     ),
 });

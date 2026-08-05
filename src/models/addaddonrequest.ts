@@ -9,6 +9,10 @@ import {
   LineItemCommitmentConfig$zodSchema,
 } from "./lineitemcommitmentconfig.js";
 import {
+  OverrideLineItemRequest,
+  OverrideLineItemRequest$zodSchema,
+} from "./overridelineitemrequest.js";
+import {
   ProrationBehavior,
   ProrationBehavior$zodSchema,
 } from "./prorationbehavior.js";
@@ -18,6 +22,7 @@ export type AddAddonRequest = {
   cadence?: AddonCadence | undefined;
   line_item_commitments?: { [k: string]: LineItemCommitmentConfig } | undefined;
   metadata?: { [k: string]: any } | undefined;
+  override_line_items?: Array<OverrideLineItemRequest> | undefined;
   proration_behavior?: ProrationBehavior | undefined;
   start_date?: string | undefined;
   subscription_id: string;
@@ -33,6 +38,10 @@ export const AddAddonRequest$zodSchema: z.ZodType<AddAddonRequest> = z.object({
     "LineItemCommitments allows setting commitment configuration per addon line item (keyed by price_id)",
   ),
   metadata: z.record(z.string(), z.any()).optional(),
+  override_line_items: z.array(OverrideLineItemRequest$zodSchema).optional()
+    .describe(
+      "OverrideLineItems allows overriding price/quantity/billing model for specific addon prices",
+    ),
   proration_behavior: ProrationBehavior$zodSchema.optional(),
   start_date: z.iso.datetime({ offset: true }).optional(),
   subscription_id: z.string(),
