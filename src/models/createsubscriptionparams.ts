@@ -13,6 +13,7 @@ export type CreateSubscriptionParams = {
   metadata?: { [k: string]: string } | undefined;
   plan_id?: string | undefined;
   start_date?: string | undefined;
+  subscription_id?: string | undefined;
 };
 
 export const CreateSubscriptionParams$zodSchema: z.ZodType<
@@ -25,4 +26,5 @@ export const CreateSubscriptionParams$zodSchema: z.ZodType<
   metadata: z.record(z.string(), z.string()).optional(),
   plan_id: z.string().optional(),
   start_date: z.iso.datetime({ offset: true }).optional(),
+  subscription_id: z.string().optional(),
 });

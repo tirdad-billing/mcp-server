@@ -11,6 +11,10 @@ import { BillingCadence, BillingCadence$zodSchema } from "./billingcadence.js";
 import { BillingCycle, BillingCycle$zodSchema } from "./billingcycle.js";
 import { BillingPeriod, BillingPeriod$zodSchema } from "./billingperiod.js";
 import {
+  CheckoutSessionResponse,
+  CheckoutSessionResponse$zodSchema,
+} from "./checkoutsessionresponse.js";
+import {
   CouponAssociationResponse,
   CouponAssociationResponse$zodSchema,
 } from "./couponassociationresponse.js";
@@ -66,6 +70,7 @@ export type SubscriptionResponse = {
   cancel_at?: string | undefined;
   cancel_at_period_end?: boolean | undefined;
   cancelled_at?: string | undefined;
+  checkout_session?: CheckoutSessionResponse | undefined;
   collection_method?: string | undefined;
   commitment_amount?: string | undefined;
   commitment_duration?: BillingPeriod | undefined;
@@ -139,6 +144,7 @@ export const SubscriptionResponse$zodSchema: z.ZodType<SubscriptionResponse> = z
     cancelled_at: z.iso.datetime({ offset: true }).optional().describe(
       "CanceledAt is the date the subscription was canceled",
     ),
+    checkout_session: CheckoutSessionResponse$zodSchema.optional(),
     collection_method: z.string().optional().describe(
       "CollectionMethod determines how invoices are collected",
     ),

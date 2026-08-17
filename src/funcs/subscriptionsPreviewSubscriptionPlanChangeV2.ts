@@ -3,7 +3,7 @@
  */
 
 import { TirdadCore } from "../core.js";
-import { encodeJSON } from "../lib/encodings.js";
+import { encodeJSON, encodeSimple } from "../lib/encodings.js";
 import { compactMap } from "../lib/primitives.js";
 import { safeParse } from "../lib/schemas.js";
 import { RequestOptions } from "../lib/sdks.js";
@@ -19,24 +19,21 @@ import {
 } from "../models/errors/httpclienterrors.js";
 import { SDKValidationError } from "../models/errors/sdkvalidationerror.js";
 import {
-  RemoveAddonRequest,
-  RemoveAddonRequest$zodSchema,
-} from "../models/removeaddonrequest.js";
+  PreviewSubscriptionPlanChangeV2Request,
+  PreviewSubscriptionPlanChangeV2Request$zodSchema,
+} from "../models/previewsubscriptionplanchangev2op.js";
 import { APICall, APIPromise } from "../types/async.js";
 import { Result } from "../types/fp.js";
 
 /**
- * Remove addon from subscription
+ * Preview a plan change (v2, swap in place)
  *
  * @remarks
- * Deprecated: use POST /subscriptions/{id}/modify/execute with type "addon" and action "remove", which also supports previewing the proration credit first.
- * Use when removing an add-on from a subscription (e.g. downgrade or opt-out).
- *
- * @deprecated method: This will be removed in a future release, please migrate away from it as soon as possible.
+ * Preview a subscription plan change without writing. Swap-in-place: subscription id, billing anchor and period bounds are preserved.
  */
-export function subscriptionsRemoveSubscriptionAddon(
+export function subscriptionsPreviewSubscriptionPlanChangeV2(
   client$: TirdadCore,
-  request: RemoveAddonRequest,
+  request: PreviewSubscriptionPlanChangeV2Request,
   options?: RequestOptions,
 ): APIPromise<
   Result<
@@ -59,7 +56,7 @@ export function subscriptionsRemoveSubscriptionAddon(
 
 async function $do(
   client$: TirdadCore,
-  request: RemoveAddonRequest,
+  request: PreviewSubscriptionPlanChangeV2Request,
   options?: RequestOptions,
 ): Promise<
   [
@@ -78,15 +75,24 @@ async function $do(
 > {
   const parsed$ = safeParse(
     request,
-    (value$) => RemoveAddonRequest$zodSchema.parse(value$),
+    (value$) => PreviewSubscriptionPlanChangeV2Request$zodSchema.parse(value$),
     "Input validation failed",
   );
   if (!parsed$.ok) {
     return [parsed$, { status: "invalid" }];
   }
   const payload$ = parsed$.value;
-  const body$ = encodeJSON("body", payload$, { explode: true });
-  const path$ = pathToFunc("/subscriptions/addon")();
+  const body$ = encodeJSON("body", payload$.body, { explode: true });
+
+  const pathParams$ = {
+    id: encodeSimple("id", payload$.id, {
+      explode: false,
+      charEncoding: "percent",
+    }),
+  };
+  const path$ = pathToFunc("/subscriptions/{id}/change/v2/preview")(
+    pathParams$,
+  );
 
   const headers$ = new Headers(compactMap({
     "Content-Type": "application/json",
@@ -98,7 +104,7 @@ async function $do(
   const context = {
     options: client$._options,
     baseURL: options?.serverURL ?? client$._baseURL ?? "",
-    operationID: "removeSubscriptionAddon",
+    operationID: "previewSubscriptionPlanChangeV2",
     oAuth2Scopes: null,
     resolvedSecurity: requestSecurity,
     securitySource: client$._options.security,
@@ -116,7 +122,7 @@ async function $do(
 
   const requestRes = client$._createRequest(context, {
     security: requestSecurity,
-    method: "DELETE",
+    method: "POST",
     baseURL: options?.serverURL,
     path: path$,
     headers: headers$,

@@ -4,6 +4,7 @@
 
 import * as z from "zod";
 import { AddonCadence, AddonCadence$zodSchema } from "./addoncadence.js";
+import { CheckoutParams, CheckoutParams$zodSchema } from "./checkoutparams.js";
 import {
   LineItemCommitmentConfig,
   LineItemCommitmentConfig$zodSchema,
@@ -20,6 +21,7 @@ import {
 export type AddAddonRequest = {
   addon_id: string;
   cadence?: AddonCadence | undefined;
+  checkout?: CheckoutParams | undefined;
   line_item_commitments?: { [k: string]: LineItemCommitmentConfig } | undefined;
   metadata?: { [k: string]: any } | undefined;
   override_line_items?: Array<OverrideLineItemRequest> | undefined;
@@ -31,6 +33,7 @@ export type AddAddonRequest = {
 export const AddAddonRequest$zodSchema: z.ZodType<AddAddonRequest> = z.object({
   addon_id: z.string(),
   cadence: AddonCadence$zodSchema.optional(),
+  checkout: CheckoutParams$zodSchema.optional(),
   line_item_commitments: z.record(
     z.string(),
     LineItemCommitmentConfig$zodSchema,

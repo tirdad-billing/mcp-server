@@ -9,6 +9,7 @@ import {
 } from "./addaddontosubscriptionrequest.js";
 import { BillingCycle, BillingCycle$zodSchema } from "./billingcycle.js";
 import { BillingPeriod, BillingPeriod$zodSchema } from "./billingperiod.js";
+import { CheckoutParams, CheckoutParams$zodSchema } from "./checkoutparams.js";
 import {
   CollectionMethod,
   CollectionMethod$zodSchema,
@@ -70,6 +71,7 @@ export type CreateSubscriptionRequest = {
   billing_cycle?: BillingCycle | undefined;
   billing_period: BillingPeriod;
   billing_period_count?: number | undefined;
+  checkout?: CheckoutParams | undefined;
   collection_method?: CollectionMethod | undefined;
   commitment_amount?: string | undefined;
   commitment_duration?: BillingPeriod | undefined;
@@ -116,6 +118,7 @@ export const CreateSubscriptionRequest$zodSchema: z.ZodType<
   billing_cycle: BillingCycle$zodSchema.optional(),
   billing_period: BillingPeriod$zodSchema,
   billing_period_count: z.int().optional(),
+  checkout: CheckoutParams$zodSchema.optional(),
   collection_method: CollectionMethod$zodSchema.optional(),
   commitment_amount: z.string().optional(),
   commitment_duration: BillingPeriod$zodSchema.optional(),

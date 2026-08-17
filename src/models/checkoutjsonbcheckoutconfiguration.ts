@@ -3,6 +3,7 @@
  */
 
 import * as z from "zod";
+import { AddAddonParams, AddAddonParams$zodSchema } from "./addaddonparams.js";
 import {
   CreateSubscriptionParams,
   CreateSubscriptionParams$zodSchema,
@@ -17,6 +18,7 @@ import {
 } from "./wallettopupparams.js";
 
 export type CheckoutJSONBCheckoutConfiguration = {
+  add_addon_params?: AddAddonParams | undefined;
   create_subscription_params?: CreateSubscriptionParams | undefined;
   modify_subscription_params?: ModifySubscriptionParams | undefined;
   wallet_topup_params?: WalletTopupParams | undefined;
@@ -25,6 +27,7 @@ export type CheckoutJSONBCheckoutConfiguration = {
 export const CheckoutJSONBCheckoutConfiguration$zodSchema: z.ZodType<
   CheckoutJSONBCheckoutConfiguration
 > = z.object({
+  add_addon_params: AddAddonParams$zodSchema.optional(),
   create_subscription_params: CreateSubscriptionParams$zodSchema.optional(),
   modify_subscription_params: ModifySubscriptionParams$zodSchema.optional(),
   wallet_topup_params: WalletTopupParams$zodSchema.optional(),
