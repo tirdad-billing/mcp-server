@@ -1,5 +1,5 @@
 lockVersion: 2.0.0
-id: 4fe61fe8-b765-43a1-bb3c-672523f7f34f
+id: 4a31f784-73de-4572-90f8-da7e1c6035db
 management:
   docChecksum: 68a9dfb729bfcbe4b0c17f13f8c91bc3
   docVersion: "1.0"
@@ -9,8 +9,8 @@ management:
   configChecksum: 2fae971ee551e621cd8cbf871ee15dc5
   published: true
 persistentEdits:
-  generation_id: 5e6c424b-e903-4f79-a7f0-66d9e6782b17
-  pristine_commit_hash: cd4a0beb0e412e8e995dcf0a26f133de4f4a5148
+  generation_id: 8ac00829-2a56-4d66-b811-cfb870bdf71a
+  pristine_commit_hash: 90a5158cfc73e5bb0a4acb31f6f2ffcd1fcf07b4
   pristine_tree_hash: 8a16d31793b623c88068355ef90959e76705ca25
 features:
   mcp-typescript:
