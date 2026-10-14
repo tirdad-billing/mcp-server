@@ -1,6 +1,6 @@
 {
   "name": "@tirdad-ai/mcp-server",
-  "version": "2.1.37",
+  "version": "2.1.38",
   "author": "Tirdad",
   "type": "module",
   "sideEffects": false,
