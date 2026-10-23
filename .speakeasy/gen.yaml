@@ -31,7 +31,7 @@ generation:
     generateNewTests: false
     skipResponseBodyAssertions: false
 mcp-typescript:
-  version: 2.1.40
+  version: 2.1.41
   additionalDependencies:
     dependencies: {}
     devDependencies: {}
@@ -52,6 +52,6 @@ mcp-typescript:
   multipartArrayFormat: standard
   numericEnumMemberNames: words
   outputModelSuffix: output
-  packageName: '@tirdad-ai/mcp-server'
+  packageName: '@tirdad/mcp-server'
   responseFormat: flat
   validateResponse: false

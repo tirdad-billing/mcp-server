@@ -4,7 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://us.api.flexprice.io/v1",

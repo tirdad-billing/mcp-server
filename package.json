@@ -1,11 +1,11 @@
 {
-  "name": "@tirdad-ai/mcp-server",
-  "version": "2.1.40",
+  "name": "@tirdad/mcp-server",
+  "version": "2.1.41",
   "author": "Tirdad",
   "type": "module",
   "sideEffects": false,
   "bin": {
-    "@tirdad-ai/mcp-server": "bin/mcp-server.js",
+    "@tirdad/mcp-server": "bin/mcp-server.js",
     "mcp": "bin/mcp-server.js"
   },
   "scripts": {

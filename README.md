@@ -27,10 +27,10 @@ You can run the server in two ways: **npm package** (one command) or **local rep
 
 ### Option 1: npm package
 
-Install: `npm i @tirdad-ai/mcp-server`. Or run with one command (no clone or build):
+Install: `npm i @tirdad/mcp-server`. Or run with one command (no clone or build):
 
 ```bash
-npx @tirdad-ai/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
+npx @tirdad/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
 ```
 
 Replace `YOUR_API_KEY` with your tirdad API key. Next: [Add to your MCP client](#add-to-your-mcp-client).
@@ -87,7 +87,7 @@ Add the tirdad MCP server in your editor. Replace `YOUR_API_KEY` with your tirda
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",
@@ -114,7 +114,7 @@ Add the tirdad MCP server in your editor. Replace `YOUR_API_KEY` with your tirda
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",
@@ -131,7 +131,7 @@ Add the tirdad MCP server in your editor. Replace `YOUR_API_KEY` with your tirda
 ### Claude Code
 
 ```bash
-claude mcp add tirdad -- npx -y @tirdad-ai/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
+claude mcp add tirdad -- npx -y @tirdad/mcp-server start --server-url https://api.tirdad.ai/v1 --api-key-auth YOUR_API_KEY
 ```
 
 Then run `claude` and use `/mcp` to confirm the server is connected.
@@ -149,7 +149,7 @@ Add to your Claude Desktop config file (path in the table above):
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",
@@ -218,7 +218,7 @@ Servers with many tools can bloat context and token usage. **Dynamic mode** expo
 To enable dynamic mode, add `--mode dynamic` when starting the server:
 
 ```json
-"args": ["-y", "@tirdad-ai/mcp-server", "start", "--server-url", "https://api.tirdad.ai/v1", "--api-key-auth", "YOUR_API_KEY", "--mode", "dynamic"]
+"args": ["-y", "@tirdad/mcp-server", "start", "--server-url", "https://api.tirdad.ai/v1", "--api-key-auth", "YOUR_API_KEY", "--mode", "dynamic"]
 ```
 
 This reduces tokens per request and can improve tool choice when there are many operations.
@@ -244,7 +244,7 @@ Control which tools are available by specifying scopes at server startup. You ca
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",
@@ -267,7 +267,7 @@ Control which tools are available by specifying scopes at server startup. You ca
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",
@@ -292,7 +292,7 @@ Control which tools are available by specifying scopes at server startup. You ca
       "command": "npx",
       "args": [
         "-y",
-        "@tirdad-ai/mcp-server",
+        "@tirdad/mcp-server",
         "start",
         "--server-url",
         "https://api.tirdad.ai/v1",

@@ -4,10 +4,9 @@
   },
   "description": "",
   "displayName": "Tirdad",
-  "display_name": "@tirdad Ai/mcp Server",
+  "display_name": "@tirdad/mcp Server",
   "keywords": [
-    "@tirdad",
-    "ai/mcp",
+    "@tirdad/mcp",
     "server",
     "flexprice",
     "api",
@@ -15,7 +14,7 @@
   ],
   "long_description": "Flexprice API: Flexprice API Service",
   "manifest_version": "0.3",
-  "name": "@tirdad-ai/mcp-server",
+  "name": "@tirdad/mcp-server",
   "prompts": [],
   "server": {
       "type": "node",
@@ -49,5 +48,5 @@
         "sensitive": true
       }
     },
-  "version": "2.1.40"
+  "version": "2.1.41"
 }

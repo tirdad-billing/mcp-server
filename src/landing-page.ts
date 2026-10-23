@@ -56,14 +56,14 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@tirdad-ai/mcp-server MCP</title>
-    <meta name="description" content="Install @tirdad-ai/mcp-server MCP server.">
+    <title>@tirdad/mcp-server MCP</title>
+    <meta name="description" content="Install @tirdad/mcp-server MCP server.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="@tirdad-ai/mcp-server - MCP Server">
-    <meta property="og:description" content="Install @tirdad-ai/mcp-server MCP server.">
+    <meta property="og:title" content="@tirdad/mcp-server - MCP Server">
+    <meta property="og:description" content="Install @tirdad/mcp-server MCP server.">
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="@tirdad-ai/mcp-server - MCP Server">
-    <meta property="twitter:description" content="Install @tirdad-ai/mcp-server MCP server.">
+    <meta property="twitter:title" content="@tirdad/mcp-server - MCP Server">
+    <meta property="twitter:description" content="Install @tirdad/mcp-server MCP server.">
     <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -670,7 +670,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
                 </svg>
               </div>
               <div class="header-content">
-                <div class="mcp-name">@tirdad-ai/mcp-server</div>
+                <div class="mcp-name">@tirdad/mcp-server</div>
                 <div class="mcp-description">MCP Server</div>
               </div>
             </div>
@@ -686,7 +686,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
                   </svg>
                 </button>
                 <div class="popover-menu hidden" id="popover-menu">
-                  <a class="popover-button install-link" href="cursor://anysphere.cursor-deeplink/mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkLWFpL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
+                  <a class="popover-button install-link" href="cursor://anysphere.cursor-deeplink/mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
                     Cursor
                   </a>
                   <button class="popover-button" onclick="showModal('claude-code')">
@@ -695,7 +695,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
                   <button class="popover-button" onclick="showModal('claude-desktop')">
                     Claude Desktop
                   </button>
-                  <a class="popover-button install-link" href="vscode://ms-vscode.vscode-mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkLWFpL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
+                  <a class="popover-button install-link" href="vscode://ms-vscode.vscode-mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
                     VS Code
                   </a>
                   <button class="popover-button" onclick="showModal('gemini')">
@@ -718,7 +718,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
             </div>
           </header>
           <div class="install-targets">
-            <a tabindex="0" class="card install-target install-link" href="cursor://anysphere.cursor-deeplink/mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkLWFpL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
+            <a tabindex="0" class="card install-target install-link" href="cursor://anysphere.cursor-deeplink/mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
               <div class="target">
                 <img src="https://cursor.com/assets/images/logo.svg" alt="Cursor">
                 <span>Cursor</span>
@@ -740,7 +740,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
                 <span>Claude Desktop</span>
               </div>
             </div>
-            <a tabindex="0" class="card install-target install-link" href="vscode://ms-vscode.vscode-mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkLWFpL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
+            <a tabindex="0" class="card install-target install-link" href="vscode://ms-vscode.vscode-mcp/install?name=Tirdad&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAdGlyZGFkL21jcC1zZXJ2ZXIiLCJzdGFydCIsIi0tc2VydmVyLWluZGV4IiwiMCIsIi0tYXBpLWtleS1hdXRoIiwiIl19">
               <div class="target">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
@@ -919,7 +919,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
               <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
             </svg>
           </button>
-          <code class="code-snippet language-json" id="claude-cli-cmd">claude mcp add Tirdad -- npx -y @tirdad-ai/mcp-server start --server-index 0 --api-key-auth </code>
+          <code class="code-snippet language-json" id="claude-cli-cmd">claude mcp add Tirdad -- npx -y @tirdad/mcp-server start --server-index 0 --api-key-auth </code>
         </div>
       </div>
     </div>
@@ -970,7 +970,7 @@ http_headers = { "server-index" = "YOUR_SERVER_INDEX", "api-key-auth" = "YOUR_AP
               <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
             </svg>
           </button>
-          <code class="code-snippet language-json" id="gemini-config">gemini mcp add Tirdad -- npx -y @tirdad-ai/mcp-server start --server-index 0 --api-key-auth </code>
+          <code class="code-snippet language-json" id="gemini-config">gemini mcp add Tirdad -- npx -y @tirdad/mcp-server start --server-index 0 --api-key-auth </code>
         </div>
       </div>
     </div>
