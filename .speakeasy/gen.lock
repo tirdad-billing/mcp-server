@@ -1,17 +1,17 @@
 lockVersion: 2.0.0
-id: e82f4910-6fab-4b10-8214-10621e59c073
+id: c2bde511-4346-4c31-8f0c-51d57a008e2a
 management:
-  docChecksum: aa88d109a4305f179d92b35694aacf19
+  docChecksum: d769e51db478d4080511736cbf0a19cb
   docVersion: "1.0"
   speakeasyVersion: 1.802.0
   generationVersion: 2.948.4
-  releaseVersion: 2.1.46
-  configChecksum: dfd465184f724f0b2dd2f6832f97f12c
+  releaseVersion: 2.1.47
+  configChecksum: 1160f0613b7d87115571623673a72530
   published: true
 persistentEdits:
-  generation_id: 59cb13b3-8dac-4002-b92f-5fef6457323f
-  pristine_commit_hash: da8d9b16394bdcee67d76eda8acd6092c7b016e7
-  pristine_tree_hash: 334a0afe805e704a04ffe2dee352395f83d92e6e
+  generation_id: 5ee8468d-a2c6-4ef2-972c-c9b99b203992
+  pristine_commit_hash: a608bdb5cbd1b50e8a4856d933f774bdefa99484
+  pristine_tree_hash: 0e7e04f791f526419076c8b78f0a24706e394922
 features:
   mcp-typescript:
     additionalDependencies: 0.1.0
@@ -47,12 +47,12 @@ trackedFiles:
     pristine_git_object: 4f9e60a9462fc4def738d60c3aaadf8232ef185f
   manifest.json:
     id: ca642a226869
-    last_write_checksum: sha1:b92604d5f7f93056bddb07b1775b307878a8a1cc
-    pristine_git_object: 37bf0921abcca8baa6be943a2371c869fea3bf6d
+    last_write_checksum: sha1:da2f107cabcea6788aaa0642be2c1d1a17546b3f
+    pristine_git_object: 3d1f5571c510b50754fe201593eb6f3606acccc4
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:3bc7a8e2b233bba12b67f433b7ef8fe3d76bfc3d
-    pristine_git_object: e9d7cad50e58fad957f09562fefb973b506a0d3a
+    last_write_checksum: sha1:f430a27e65ec6f49b9b6d0d7fd437ef0e23c91e9
+    pristine_git_object: 3ba81927a93cd632be27030f13f77046322ed741
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:fb25a91b06ec26c1245d17f7e5903578aef39362
@@ -119,8 +119,8 @@ trackedFiles:
     pristine_git_object: 7ee5f2fdb212a5d5227e8fe67b9a20cb62746acc
   src/funcs/eventsGetUsageAnalytics.ts:
     id: 19d643bc0ec1
-    last_write_checksum: sha1:030e03424a99e9ce644787395a61bddb26cfcff0
-    pristine_git_object: fd6ae1c995e94c6c8cb17df8242c8156e1833b18
+    last_write_checksum: sha1:e011cb577129a937c12829ae850dfac4d74b1b61
+    pristine_git_object: 95e0bc3f6727ff92f16859953c3d4b09914f0c49
   src/funcs/eventsGetUsageByMeter.ts:
     id: 0e76f3669d6b
     last_write_checksum: sha1:d91cbeea7289fb5d334ff2cc1028f503473f50b6
@@ -249,6 +249,10 @@ trackedFiles:
     id: ff67647a845a
     last_write_checksum: sha1:ba6c17ca2c84f0d2b7714e4d769abcfe6cb6c6fd
     pristine_git_object: 92ce808499656ba89ba2acbdd6b57cc18789915c
+  src/funcs/pricesGetPriceHistory.ts:
+    id: 9b1691bdc59b
+    last_write_checksum: sha1:108171f59816bf8c3c1fd707b7cc9b0461589e52
+    pristine_git_object: 1a2349ab734712e3587fd4b259c2f7be702ce072
   src/funcs/pricesQueryPrice.ts:
     id: 73252d8b3a0d
     last_write_checksum: sha1:414a93c6621fd587e3a0cda34b3f664e752b3501
@@ -333,6 +337,10 @@ trackedFiles:
     id: 8ba78e0fb9f7
     last_write_checksum: sha1:9be223c8864ae4ac9c5d73fd5bd94d797d7b82f3
     pristine_git_object: 3aa6fe6a35c4222004f6ca6538140017313bb784
+  src/funcs/subscriptionsGetSubscriptionLineItemHistory.ts:
+    id: cc3a4eaf4f1e
+    last_write_checksum: sha1:21d06924d7ae0b97624e76011c01fb95eb6b5451
+    pristine_git_object: 7b496ad95f4f2590a530af89cb4fdc3c6557d587
   src/funcs/subscriptionsGetSubscriptionSchedule.ts:
     id: 884ed9b0bc7d
     last_write_checksum: sha1:8291bfe368e04c7c51687cf65d045706066b19df
@@ -415,8 +423,8 @@ trackedFiles:
     pristine_git_object: d4bd8b341290e7a828a171d840bd0b0fff7c7cd7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:38152e67120e9a11c1522c98f65de83b071ea41c
-    pristine_git_object: de1e81bdf1eebbfd52b9c9f228d6d52075ed614c
+    last_write_checksum: sha1:6ce72286114705e1192553310fe994e3f3749af3
+    pristine_git_object: 93ed0c6e1e4eee474fbdaee9ae0d3dbe535cd857
   src/lib/encodings.ts:
     id: 3bd8ead98afd
     last_write_checksum: sha1:3ff4ad6809b749125820fd39c01427b84d3fe0d6
@@ -499,8 +507,8 @@ trackedFiles:
     pristine_git_object: b42d7cda985b8199f2245063f22bb68efb5ecdd0
   src/mcp-server/mcp-server.ts:
     id: aabbc4ab07c1
-    last_write_checksum: sha1:79ec5e93ef759a46ea079353e0cb68202ea276bb
-    pristine_git_object: 06d06553c55298fafa7a0af2d6a5b5c2045f64b0
+    last_write_checksum: sha1:9675a2d2f8dd06b27fdd998717c81319b370c5f8
+    pristine_git_object: e55283133e35851a56c404a4a982ab81dbf28f73
   src/mcp-server/prompts.ts:
     id: 26f3d73cbf31
     last_write_checksum: sha1:5ce246d477e99766e090be4b0503b88c249a7d34
@@ -515,8 +523,8 @@ trackedFiles:
     pristine_git_object: 15f4f5d0e9477ad34c3879321ed36111f9d4cbe1
   src/mcp-server/server.ts:
     id: 2784dd48e82a
-    last_write_checksum: sha1:ee799cdc2992b085b5f7088ae73043a5d823e9dc
-    pristine_git_object: 60e6266cddd5b7a7858e954fc137cf57a81f32b1
+    last_write_checksum: sha1:81792580f1b9a240a11b39a94121e7db04b48d19
+    pristine_git_object: 122322264c7a8360f0504fb57246541d6b911adf
   src/mcp-server/shared.ts:
     id: 074e80d4be1e
     last_write_checksum: sha1:19c9034032819a14f15c430de4350c8aba99d725
@@ -587,8 +595,8 @@ trackedFiles:
     pristine_git_object: ade2518b2d8afd3324fba73fc075b20275035c1c
   src/mcp-server/tools/eventsGetUsageAnalytics.ts:
     id: 8a01a934b340
-    last_write_checksum: sha1:c92a953add00ef8c15c41c1887589e1c55f766d1
-    pristine_git_object: b7a037e71c2f4b8091b333ef39a6af088f8cf595
+    last_write_checksum: sha1:9dcefc92afd7b1fc82bcb22c8405c1699fc6f7d2
+    pristine_git_object: e692edd6caef4d31abcac8c5f9ea01a5e99b7ae5
   src/mcp-server/tools/eventsGetUsageByMeter.ts:
     id: 543f32c70ed5
     last_write_checksum: sha1:18bd56e02e22d4e83078253a24b25861090b47a8
@@ -717,6 +725,10 @@ trackedFiles:
     id: 91305031f309
     last_write_checksum: sha1:c6e677e7ca6f44f757d95911556107a268fe2afd
     pristine_git_object: 58d4cbc711904b58ebb12d2f758514e6a2c6f8b6
+  src/mcp-server/tools/pricesGetPriceHistory.ts:
+    id: 2385d326c325
+    last_write_checksum: sha1:ef9d8dc4fea55a2b50bbd221a0f1ee71f715ff5e
+    pristine_git_object: 69854ab678437b978332ad9117bd71e4c71ca917
   src/mcp-server/tools/pricesQueryPrice.ts:
     id: 0bf3c9b3dec2
     last_write_checksum: sha1:26abeaa179e5e99d8b85cf605710a64bd3f70b1e
@@ -801,6 +813,10 @@ trackedFiles:
     id: 649c03f2490e
     last_write_checksum: sha1:7c719de93b7d936fd7474414ae62c74a10da0d54
     pristine_git_object: 3bdf85971834d5dc605c42a268e8860f058ef237
+  src/mcp-server/tools/subscriptionsGetSubscriptionLineItemHistory.ts:
+    id: 598af58cef3a
+    last_write_checksum: sha1:0325eb5f73dea2c8f461579ca188a15f66f80561
+    pristine_git_object: 3b0308327a43beb2f47d39fab019ed3aa4534143
   src/mcp-server/tools/subscriptionsGetSubscriptionSchedule.ts:
     id: 4ae505509a3e
     last_write_checksum: sha1:7c6dfa356b6c3e7c285e50574b6b62a604bd57a0
@@ -1701,6 +1717,10 @@ trackedFiles:
     id: 25f6782b2671
     last_write_checksum: sha1:92501bfe9a76cf5ca9bc6cd7d027209baab2830c
     pristine_git_object: 3a5e2977b52f6db34431feaf312c5b61547682dd
+  src/models/getpricehistoryop.ts:
+    id: e3d0bf051316
+    last_write_checksum: sha1:df18a7e5058f64d50eb275a29b34ed046bacaa94
+    pristine_git_object: 697a61be16f6daa64ae15e12d631f52953575331
   src/models/getpriceop.ts:
     id: 97bb85508870
     last_write_checksum: sha1:08d972a0332eb3bde35011ab4362690be651bbe2
@@ -1717,6 +1737,10 @@ trackedFiles:
     id: 3ffb89700970
     last_write_checksum: sha1:fad2ff82c680ff9c588a2afd68437a914a9f560a
     pristine_git_object: 471c011dde7e97985d6aabd9008e1662e34ec4ea
+  src/models/getsubscriptionlineitemhistoryop.ts:
+    id: 6e176002a7dd
+    last_write_checksum: sha1:4a1385cdad371fc1a2722d00e6f11c6f50cc384e
+    pristine_git_object: 7f135c5834c7203e545647b46fc9a332f02d1f00
   src/models/getsubscriptionop.ts:
     id: 4b5992073c9f
     last_write_checksum: sha1:142388cbf9c9cd558b358548657c20ecb80ad4ec
@@ -1799,8 +1823,8 @@ trackedFiles:
     pristine_git_object: 4f0715e21617d69a7b87b9ab000da2100a4a26d9
   src/models/groupedinvoicingchildrequest.ts:
     id: b5d98552793a
-    last_write_checksum: sha1:408bacb0dac89552f26355c218fcdbf7cff02ffa
-    pristine_git_object: 5fe739458b91e164f7c0550f9fa4fd8d95f3d515
+    last_write_checksum: sha1:abd77a281dbae11e966d5354dc9246dfb43a3334
+    pristine_git_object: a27976f414e86b8663ef65eebabf759323fd40cc
   src/models/groupentitytype.ts:
     id: 70b961d1ece1
     last_write_checksum: sha1:98156aeb36fbea24a2118e615dad176cde4e2ec3
@@ -2699,8 +2723,8 @@ trackedFiles:
     pristine_git_object: 7058ba8e90dd7465502e6d6ef6cdee2fb792d067
   src/models/updatesubscriptionrequest.ts:
     id: 397444f7ec03
-    last_write_checksum: sha1:fd81fc43bfed84f9d96de85db6017dc10ab0a078
-    pristine_git_object: 6d30c550c77a466af5560125c2099ebfd46d6da1
+    last_write_checksum: sha1:130dae95f5454e18e526bd34cd92b53a22ddc820
+    pristine_git_object: 45b9fef1c47e3b9d9ba541f3da2d3cc2d53f249f
   src/models/usageanalyticitem.ts:
     id: 394efd15d60f
     last_write_checksum: sha1:79ea2ecbe33851250d2b19af4bb8fc4a38b9bed3
@@ -3402,6 +3426,18 @@ examples:
           application/json: {}
         "500":
           application/json: {}
+  getPriceHistory:
+    speakeasy-default-get-price-history:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"items": [{"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}
+        "400":
+          application/json: {}
+        "500":
+          application/json: {}
   listProducts:
     speakeasy-default-list-products:
       responses:
@@ -3539,6 +3575,18 @@ examples:
       responses:
         "200":
           application/json: {"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}
+        "400":
+          application/json: {}
+        "500":
+          application/json: {}
+  getSubscriptionLineItemHistory:
+    speakeasy-default-get-subscription-line-item-history:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"items": [{"price": {"addon": {"entitlements": [{"addon": {"prices": [{"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}]}, "feature": {"meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}}, "plan": {}}]}, "meter": {"created_at": "2024-03-20T15:04:05Z", "event_name": "api_request", "id": "550e8400-e29b-41d4-a716-446655440000", "name": "API Usage Meter", "status": "published", "tenant_id": "tenant123", "updated_at": "2024-03-20T15:04:05Z"}, "plan": {}}}]}
         "400":
           application/json: {}
         "500":
